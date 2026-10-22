@@ -1,0 +1,24 @@
+customer_id,customer_name,email,phone
+C001,Acme Manufacturing,billing@acme.com,602-555-0101
+C002,  BLUE SKY CONSULTING ,ACCOUNTS@BLUESKY.COM,(602) 555-0102
+C003,Canyon Office Supply,info@canyon.com,602-555-0103
+C004,Desert Peak  Services,admin@desertpeak.com,602-555-0104
+C005,Evergreen Property Group,,602-555-0105
+C006,Frontier Logistics,billing@frontier.com,602-555-0106
+C007,Golden Gate Industries,not-an-email,602-555-0107
+C008,Highland Medical Supply,office@highland.com,602-555-0108
+C009,Ironwood Technologies,payables@ironwood.com,
+C010,Juniper Creative Studio,hello@juniper.com,602-555-0110
+C011,KEYSTONE BUILDING GROUP,billing@keystone.com,602-555-0111
+C012,Lighthouse Marketing,accounts@lighthouse.com,602-555-0112
+C013,Mesa Valley Foods,finance@mesavalley.com,602.555.0113
+C014,Northstar Equipment,billing@northstar.com,602-555-0114
+C015,Oak Ridge Consulting,office@oakridge.com,602-555-0115
+C016,Pioneer Distribution,accounts@pioneer.com,602-555-0116
+C017, Quartz Mountain LLC ,admin@quartz.com,602-555-0117
+C018,Red Rock Contractors,billing@redrock.com,602-555-0118
+C019,Silverline Printing,info@silverline.com,602-555-0119
+C020,Timber Creek Services,finance@timbercreek.com,602-555-0120
+C005,Evergreen Property Group,,602-555-0105
+C021,Acme Mfg.,billing@acme.com,6025550101
+C022,Valley View Enterprises,,

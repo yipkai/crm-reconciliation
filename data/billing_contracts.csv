@@ -1,0 +1,23 @@
+contract_id,customer_name,customer_email,contract_amount,invoice_amount
+CTR001,Acme Manufacturing,billing@acme.com,1200.00,1200.00
+CTR002,Blue Sky Consulting ,ACCOUNTS@BLUESKY.COM,1350.00,1350.00
+CTR003,Canyon Office Supply,info@canyon.com,1500.00,1750.00
+CTR004,Desert Peak Services,admin@desertpeak.com,1650.00,1650.00
+CTR005,Evergreen Property Group,finance@evergreen.com,1800.00,1800.00
+CTR006,FRONTIER LOGISTICS,billing@frontier.com,1950.00,1950.00
+CTR007,Golden Gate Industries,accounts@goldengate.com,2100.00,2100.00
+CTR008,Highland Medical Supply,office@highland.com,2250.00,2150.00
+CTR009,Ironwood Technologies,payables@ironwood.com,2400.00,2400.00
+CTR010,Juniper Creative Studio,,2550.00,2550.00
+CTR011,Keystone Building Group,billing@keystone.com,2700.00,2700.00
+CTR012,Lighthouse Marketing,accounts@lighthouse.com,2850.00,2850.00
+CTR013,Mesa Valley Foods,finance@mesavalley.com,3000.00,3000.00
+CTR014,North Star Equipment,billing@northstar.com,3150.00,3150.00
+CTR015,Oak Ridge Consulting,office@oakridge.com,3300.00,3800.00
+CTR016,Pioneer Distribution,accounts@pioneer.com,3450.00,3450.00
+CTR017,"Quartz Mountain, LLC",admin@quartz.com,3600.00,3600.00
+CTR018,Red Rock Contractors,billing@redrock.com,3750.00,3750.00
+CTR019,Silverline Printing,info@silverline.com,3900.00,3900.00
+CTR020,Timber Creek Services,finance@timbercreek.com,4050.00,4050.00
+CTR006,FRONTIER LOGISTICS,billing@frontier.com,1950.00,1950.00
+CTR021,Summit Ridge Holdings,billing@summitridge.com,4200.00,4200.00

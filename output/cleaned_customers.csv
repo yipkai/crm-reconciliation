@@ -1,0 +1,24 @@
+customer_id,customer_name,email,phone,email_valid,is_duplicate
+C001,Acme Manufacturing,billing@acme.com,602-555-0101,True,False
+C002,Blue Sky Consulting,accounts@bluesky.com,602-555-0102,True,False
+C003,Canyon Office Supply,info@canyon.com,602-555-0103,True,False
+C004,Desert Peak Services,admin@desertpeak.com,602-555-0104,True,False
+C005,Evergreen Property Group,,602-555-0105,False,False
+C006,Frontier Logistics,billing@frontier.com,602-555-0106,True,False
+C007,Golden Gate Industries,not-an-email,602-555-0107,False,False
+C008,Highland Medical Supply,office@highland.com,602-555-0108,True,False
+C009,Ironwood Technologies,payables@ironwood.com,,True,False
+C010,Juniper Creative Studio,hello@juniper.com,602-555-0110,True,False
+C011,Keystone Building Group,billing@keystone.com,602-555-0111,True,False
+C012,Lighthouse Marketing,accounts@lighthouse.com,602-555-0112,True,False
+C013,Mesa Valley Foods,finance@mesavalley.com,602-555-0113,True,False
+C014,Northstar Equipment,billing@northstar.com,602-555-0114,True,False
+C015,Oak Ridge Consulting,office@oakridge.com,602-555-0115,True,False
+C016,Pioneer Distribution,accounts@pioneer.com,602-555-0116,True,False
+C017,Quartz Mountain Llc,admin@quartz.com,602-555-0117,True,False
+C018,Red Rock Contractors,billing@redrock.com,602-555-0118,True,False
+C019,Silverline Printing,info@silverline.com,602-555-0119,True,False
+C020,Timber Creek Services,finance@timbercreek.com,602-555-0120,True,False
+C005,Evergreen Property Group,,602-555-0105,False,True
+C021,Acme Mfg.,billing@acme.com,602-555-0101,True,False
+C022,Valley View Enterprises,,,False,False

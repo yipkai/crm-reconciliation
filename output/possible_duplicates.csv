@@ -1,0 +1,5 @@
+customer_id,customer_name,email,phone,email_valid,is_duplicate
+C001,Acme Manufacturing,billing@acme.com,602-555-0101,True,False
+C005,Evergreen Property Group,,602-555-0105,False,False
+C005,Evergreen Property Group,,602-555-0105,False,True
+C021,Acme Mfg.,billing@acme.com,602-555-0101,True,False
