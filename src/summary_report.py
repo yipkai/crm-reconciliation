@@ -15,6 +15,15 @@ def generate_summary(results):
     )
 
     validated = results.loc[~financial_review]
+    # Identify records that pass all reconciliation checks
+    fully_reconciled = (
+        (results["match_status"] == "Matched")
+        & (~results["billing_discrepancy"])
+        & (~results["duplicate_contract"])
+        & (~results["invalid_amount"])
+    )
+
+    reconciled = results.loc[fully_reconciled]
     summary = {
         "total_billing_records": len(results),
         "matched_records": int(
@@ -43,6 +52,9 @@ def generate_summary(results):
         "eligible_financial_records": len(validated),
         "eligible_invoice_amount": validated["invoice_amount"].sum(),
         "eligible_contract_amount": validated["contract_amount"].sum(),
+        "fully_reconciled_records": int(fully_reconciled.sum()),
+        "fully_reconciled_invoice_amount": reconciled["invoice_amount"].sum(),
+        "fully_reconciled_contract_amount": reconciled["contract_amount"].sum(),
     }
 
     return pd.DataFrame([summary])

@@ -82,3 +82,51 @@ def test_duplicate_contract_excluded_from_eligible_totals():
     assert summary["total_invoice_amount"] == 3000.00
     assert summary["eligible_invoice_amount"] == 1000.00
     assert summary["eligible_contract_amount"] == 1000.00
+
+def test_fully_reconciled_records():
+    data = pd.DataFrame(
+        [
+            {
+                "match_status": "Matched",
+                "billing_discrepancy": False,
+                "invalid_amount": False,
+                "duplicate_contract": False,
+                "invoice_amount": 1000.00,
+                "contract_amount": 1000.00,
+                "difference": 0.00,
+            },
+            {
+                "match_status": "Ambiguous",
+                "billing_discrepancy": False,
+                "invalid_amount": False,
+                "duplicate_contract": False,
+                "invoice_amount": 2000.00,
+                "contract_amount": 2000.00,
+                "difference": 0.00,
+            },
+            {
+                "match_status": "Matched",
+                "billing_discrepancy": True,
+                "invalid_amount": False,
+                "duplicate_contract": False,
+                "invoice_amount": 1250.00,
+                "contract_amount": 1000.00,
+                "difference": 250.00,
+            },
+            {
+                "match_status": "Matched",
+                "billing_discrepancy": False,
+                "invalid_amount": False,
+                "duplicate_contract": True,
+                "invoice_amount": 3000.00,
+                "contract_amount": 3000.00,
+                "difference": 0.00,
+            },
+        ]
+    )
+
+    summary = generate_summary(data).iloc[0]
+
+    assert summary["fully_reconciled_records"] == 1
+    assert summary["fully_reconciled_invoice_amount"] == 1000.00
+    assert summary["fully_reconciled_contract_amount"] == 1000.00
